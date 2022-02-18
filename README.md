@@ -8,4 +8,7 @@
 - The regularization term in Neural Network is called 'Frobenius Norm'
 ![image](https://user-images.githubusercontent.com/60442877/151812156-0fdbe91a-152b-4b23-a37c-3d04e1ea4b22.png)
 
+## Regularization
+
+Just add penalty term in the cost function
 
