@@ -9,7 +9,8 @@
 ![image](https://user-images.githubusercontent.com/60442877/151812156-0fdbe91a-152b-4b23-a37c-3d04e1ea4b22.png)
 - Regularization: Just add penalty term in the cost function
 - If you take a very large value for lambda in Frobenius Norm, then, the weights will be closed to 0, and this will raise higher bias 
-
-### L2-Regularization: Frobenius Norm
-### Dropout Regularization: Randomly knock out units in the network
+- L2-Regularization: Frobenius Norm
+- Dropout Regularization: Randomly knock out units in the network
+- Data Augmentation
+![image](https://user-images.githubusercontent.com/60442877/154621348-fcfae5c6-a417-4335-afad-47807968bcdf.png)
 
