@@ -10,3 +10,6 @@
 - Regularization: Just add penalty term in the cost function
 - If you take a very large value for lambda in Frobenius Norm, then, the weights will be closed to 0, and this will raise higher bias 
 
+### L2-Regularization: Frobenius Norm
+### Dropout Regularization
+
