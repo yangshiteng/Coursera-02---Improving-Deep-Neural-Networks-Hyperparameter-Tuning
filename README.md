@@ -20,4 +20,8 @@
 - Vanishing or Exploding Gradients problem (the gradient can be either very small or very high), usually for the very deep neural networks
 - A partial solution to this Vanishing or Exploding Gradients problem is the more careful choice of the random initialization 
 ![image](https://user-images.githubusercontent.com/60442877/154625895-cd3e771b-9839-495e-91a9-d7f618cc1bbb.png)
-
+- Gradient Approximation 
+![image](https://user-images.githubusercontent.com/60442877/154787217-1a7d2688-05b4-4f93-ac98-1bbb023d9217.png)
+- Two side approximation is more accurate than one side approximation
+- For gradient checking, we rather use two side approximation for its accuracy
+- Gradient Checking is a technique that can  be used to help people save tons of time and help people find bugs in implementations of back-propagation 
