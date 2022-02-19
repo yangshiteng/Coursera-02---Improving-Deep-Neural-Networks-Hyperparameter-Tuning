@@ -24,4 +24,13 @@
 ![image](https://user-images.githubusercontent.com/60442877/154787217-1a7d2688-05b4-4f93-ac98-1bbb023d9217.png)
 - Two side approximation is more accurate than one side approximation
 - For gradient checking, we rather use two side approximation for its accuracy
-- Gradient Checking is a technique that can  be used to help people save tons of time and help people find bugs in implementations of back-propagation 
+- Gradient Checking is a technique that can  be used to help people save tons of time and help people find bugs in implementations of back-propagation, it is implemented by compare the approximated gradient (two side approximation) with the calculated gradient by the following formula:
+![image](https://user-images.githubusercontent.com/60442877/154817590-ec2d092b-9144-4822-919f-b3321a4630dc.png)
+- Don't use gradient checking in training, only to debug
+- If algorithm fails gradient checking, look at components in gradient vector to try to identify bug
+- If you use regularization, don't forget it
+- Gradient checking doesn't work with dropout regularization
+- Run at random initialization
+![image](https://user-images.githubusercontent.com/60442877/154818037-3f162df1-010c-48ec-90dc-cfdd6ea81f82.png)
+
+
