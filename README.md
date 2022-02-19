@@ -32,5 +32,7 @@
 - Gradient checking doesn't work with dropout regularization
 - Run at random initialization
 ![image](https://user-images.githubusercontent.com/60442877/154818037-3f162df1-010c-48ec-90dc-cfdd6ea81f82.png)
+![image](https://user-images.githubusercontent.com/60442877/154818968-a45d569c-e45f-4859-986c-9965530d4f17.png)
+
 
 
