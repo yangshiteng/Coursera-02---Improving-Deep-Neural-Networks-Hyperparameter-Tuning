@@ -38,4 +38,6 @@
 ![image](https://user-images.githubusercontent.com/60442877/154825473-0891bdd7-4bc7-4d66-9124-0642b4c72f98.png)
 
 
+# Week 2
 
+## Week 2 - Mini-batch Gradient Descent
