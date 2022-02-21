@@ -38,6 +38,21 @@
 ![image](https://user-images.githubusercontent.com/60442877/154825473-0891bdd7-4bc7-4d66-9124-0642b4c72f98.png)
 
 
-# Week 2
+# Week 2 - Optimization Algorithms
+
+- Optimization Algorithms enable you to train your Neural Network much faster
+- Deep Learning tends to work best in the regime of big data and training on a large dataset is just slow. Having fast optimization algorithms can really speed up the efficiency of your project
 
 ## Week 2 - Mini-batch Gradient Descent
+
+- split up your big training dataset into smaller little baby training datasets and these baby training datasets are called mini-batches
+- When you have large training dataset, Mini-batch Gradient Descent runs much faster than batch gradient descent (just vectorization implementation for whole dataset)
+![image](https://user-images.githubusercontent.com/60442877/154870804-16ce94ba-5f0c-4184-9cad-0dbc105cc6bb.png)
+- Cost function curve comparison between Batch Gradient Descnet and Mini-batch gradient Descent
+![image](https://user-images.githubusercontent.com/60442877/154870996-040b046e-8ccd-4aae-988b-13ef71f678a1.png)
+- If mini-batch size = m (the number of observations), then, its just batch gradient descent
+- If mini-batch size = 1, then, it is Stochastic Gradient Descnet (never converge), every observation is a mini-batch
+![image](https://user-images.githubusercontent.com/60442877/154871701-faa454b0-5654-4354-bd4a-343f4e7343d7.png)
+
+
+
