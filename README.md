@@ -58,5 +58,17 @@
 - If mini-batch size = 1, then, it is Stochastic Gradient Descnet (never converge), every observation is a mini-batch
 ![image](https://user-images.githubusercontent.com/60442877/154871701-faa454b0-5654-4354-bd4a-343f4e7343d7.png)
 
+## Week 2 - Exponentially Weighted Moving Averages
+
+![image](https://user-images.githubusercontent.com/60442877/154874603-c1d27ee4-a367-4c30-916d-e7f040312743.png)
+- Bias Correction
+![image](https://user-images.githubusercontent.com/60442877/154883316-82cd436a-dccc-4b30-b4e4-c5c8457b6dfd.png)
+
+## Week 2 - Gradient Descent with Momentum
+
+- always works faster than the stardard gradient descent algorithm
+- the basic idea is to compute an exponentially weighted moving average of your gradients, and then use that gradient to update your weights instead
+![image](https://user-images.githubusercontent.com/60442877/154883250-8654bd3e-1d32-4361-b0da-c62fe9516ffc.png)
+
 
 
