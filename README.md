@@ -48,6 +48,10 @@
 - split up your big training dataset into smaller little baby training datasets and these baby training datasets are called mini-batches
 - When you have large training dataset, Mini-batch Gradient Descent runs much faster than batch gradient descent (just vectorization implementation for whole dataset)
 ![image](https://user-images.githubusercontent.com/60442877/154870804-16ce94ba-5f0c-4184-9cad-0dbc105cc6bb.png)
+- epoch is a word that means a single pass through the training dataset
+- With batch gradient descent, a single pass through the training dataset allows you to take only one gradient descent update step
+- With mini-batch gradient descent, a single pass through the training dataset, that is one epoch, allows you to take 5000 gradient descent update steps
+- If you want to take multiple passes through the tranining dataset, just add another for loop 
 - Cost function curve comparison between Batch Gradient Descnet and Mini-batch gradient Descent
 ![image](https://user-images.githubusercontent.com/60442877/154870996-040b046e-8ccd-4aae-988b-13ef71f678a1.png)
 - If mini-batch size = m (the number of observations), then, its just batch gradient descent
