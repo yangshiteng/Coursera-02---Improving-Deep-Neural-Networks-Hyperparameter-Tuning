@@ -70,5 +70,28 @@
 - the basic idea is to compute an exponentially weighted moving average of your gradients, and then use that gradient to update your weights instead
 ![image](https://user-images.githubusercontent.com/60442877/154883250-8654bd3e-1d32-4361-b0da-c62fe9516ffc.png)
 
+## Week 2 - RMSprop (Root Mean Square prop)
+
+- Speed up gradient descnet
+![image](https://user-images.githubusercontent.com/60442877/154987314-9bd79825-ca32-4261-b84c-fc5eebb8b8c9.png)
+
+## Week 2 -  Adam Optimization Algorithm
+
+- the combination of Momentum and RMSprop 
+- Adam stands for Adaptive moment estimation
+![image](https://user-images.githubusercontent.com/60442877/154989783-ac9bdbb6-7539-454c-bea7-9e0021cf65de.png)
+![image](https://user-images.githubusercontent.com/60442877/154995244-3ca72825-6b51-4deb-b061-9afaad0748a3.png)
+
+## Week 2 - Learning Rate Decay
+
+- speed up your leanring algorithm by slowly reducing your leanring rate overtime
+- 1 epoch = 1 pass through the data
+- Mainly used for min-batch gradient descent, cause it will not converge. 
+![image](https://user-images.githubusercontent.com/60442877/155000185-fd8ac073-b1e8-4699-a33f-f150e5c81031.png)
+![image](https://user-images.githubusercontent.com/60442877/155000251-cca6f540-95cb-4602-9438-23ac121298e8.png)
+![image](https://user-images.githubusercontent.com/60442877/155000312-b5d4930b-563b-4197-a50b-5de3e4e28e51.png)
+- Don't worry abou the local optima problem in Neural Network
+
+
 
 
