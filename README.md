@@ -94,6 +94,7 @@
 - Momentum can help us reduce the oscillation of mini-batch gradient descent 
 ![image](https://user-images.githubusercontent.com/60442877/155270703-ca4033da-f1b1-4000-9ffb-4981ddcb56fe.png)
 ![image](https://user-images.githubusercontent.com/60442877/155272050-5a7b6c8a-369e-4037-b52b-173bc10d0520.png)
+![image](https://user-images.githubusercontent.com/60442877/155272862-b2a89539-0973-400b-87d7-1e0aebedb203.png)
 
 
 
