@@ -90,8 +90,10 @@
 ![image](https://user-images.githubusercontent.com/60442877/155000185-fd8ac073-b1e8-4699-a33f-f150e5c81031.png)
 ![image](https://user-images.githubusercontent.com/60442877/155000251-cca6f540-95cb-4602-9438-23ac121298e8.png)
 ![image](https://user-images.githubusercontent.com/60442877/155000312-b5d4930b-563b-4197-a50b-5de3e4e28e51.png)
-- Don't worry abou the local optima problem in Neural Network
-
+- Don't worry about the local optima problem in Neural Network
+- Momentum can help us reduce the oscillation of mini-batch gradient descent 
+![image](https://user-images.githubusercontent.com/60442877/155270703-ca4033da-f1b1-4000-9ffb-4981ddcb56fe.png)
+![image](https://user-images.githubusercontent.com/60442877/155272050-5a7b6c8a-369e-4037-b52b-173bc10d0520.png)
 
 
 
