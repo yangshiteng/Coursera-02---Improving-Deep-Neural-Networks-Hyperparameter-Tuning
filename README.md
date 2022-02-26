@@ -96,5 +96,28 @@
 ![image](https://user-images.githubusercontent.com/60442877/155272050-5a7b6c8a-369e-4037-b52b-173bc10d0520.png)
 ![image](https://user-images.githubusercontent.com/60442877/155272862-b2a89539-0973-400b-87d7-1e0aebedb203.png)
 
+# Week 3 
+
+## 3.1 Hyperparameter Tuning
+
+Hyperparameter tune:
+1. learning rate
+2. momentum beta
+3. adam, momentum beta, RMSprop beta, epsilon in denominator to prevent 0
+4. number of layers
+5. number of hidden units
+6. learning rate decay
+7. mini-batch size
+![image](https://user-images.githubusercontent.com/60442877/155861003-8356d7fb-6f03-4782-b439-a9e5385a8d4f.png)
+
+Coarse to fine scheme:
+1. Firstly find some points that work really wel
+2. Then, zoom in to a smaller region that include these points
+3. Then, try more points in this region
+![image](https://user-images.githubusercontent.com/60442877/155861419-67eebeb7-5997-4b4b-8271-f215791139e6.png)
+
+- Use random sampling, not grid search
+- consider implementing the coarse to fine search process
+
 
 
