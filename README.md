@@ -98,7 +98,7 @@
 
 # Week 3 
 
-## 3.1 Hyperparameter Tuning
+## Hyperparameter Tuning
 
 Hyperparameter tune:
 1. learning rate
@@ -118,6 +118,27 @@ Coarse to fine scheme:
 
 - Use random sampling, not grid search
 - consider implementing the coarse to fine search process
+
+![image](https://user-images.githubusercontent.com/60442877/155863069-bcb50b63-093f-4a81-8bac-fa8b7ffe1fdf.png)
+
+## Batch Normalization
+
+- make your hyperparameter search much easier
+- make your Neural Network more robust
+- very easy to train very deep Neural Network
+- Normalize the input features can speed up the learning algorithm
+![image](https://user-images.githubusercontent.com/60442877/155865601-15ab7bad-13b4-414a-89da-18fbe7b9eff7.png)
+- gamma and beta are learnable parameters which means they can be optimized in gradient descent like W and b
+![image](https://user-images.githubusercontent.com/60442877/155865955-b132486a-45e7-484c-81a3-e4334c27f283.png)
+- When you are using the Batch Norm, there is no point to have bias term since this bias will be cancelled out during the normalization
+![image](https://user-images.githubusercontent.com/60442877/155866396-993902c5-ceb8-42cf-a9bd-8e5ba0ca82c0.png)
+![image](https://user-images.githubusercontent.com/60442877/155866603-57a40437-c505-4972-977d-aa69da98b794.png)
+
+
+
+
+
+
 
 
 
