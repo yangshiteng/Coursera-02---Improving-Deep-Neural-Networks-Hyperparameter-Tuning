@@ -143,6 +143,9 @@ The loss function of Multi-class Classification is: the negative of log of the p
 
 ![image](https://user-images.githubusercontent.com/60442877/155871434-85a67df4-baf1-4756-8540-8013314d1290.png)
 
+## Deep Learning Frameworks
+
+![image](https://user-images.githubusercontent.com/60442877/155872553-1cb57c55-5353-4f37-86f5-41a0bc1e1090.png)
 
 
 
