@@ -135,7 +135,11 @@ Coarse to fine scheme:
 ![image](https://user-images.githubusercontent.com/60442877/155866603-57a40437-c505-4972-977d-aa69da98b794.png)
 
 
+## Multi-class Classification
 
+![image](https://user-images.githubusercontent.com/60442877/155870041-22f696a0-05f8-4c86-8b55-97492975204f.png)
+The loss function of Multi-class Classification is: the negative of log of the predicted probability being the true label
+![image](https://user-images.githubusercontent.com/60442877/155871434-85a67df4-baf1-4756-8540-8013314d1290.png)
 
 
 
